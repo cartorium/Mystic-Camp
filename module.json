@@ -1,0 +1,50 @@
+{
+  "id": "mystic-camp",
+  "title": "Mystic camp",
+  "description": "<p><strong data-path-to-node=\"1\" data-index-in-node=\"0\">The Mystic Traveler’s Camp &amp; Ritual Circle</strong> serves as a glowing sanctuary and a mysterious crossroads for those trekking through the deep woods. Its camp is a gathering of ornate vardos and weathered rugs surrounding a central ritual circle that hums with a faint, rhythmic magic. They say the wagons are filled with more than just silk and spices.</p>",
+  "version": "1.0.0",
+  "library": false,
+  "manifest": "https://raw.githubusercontent.com/cartorium/Mystic-Camp/main/module.json",
+  "download": "https://github.com/cartorium/Mystic-Camp/releases/download/v1.0.0/Mystic%20Camp.zip",
+  "authors": [
+    {
+      "name": "Cartorium",
+      "url": "https://www.patreon.com/cartorium",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "packs": [
+    {
+      "name": "pack-1",
+      "label": "Pack 1",
+      "path": "packs/pack-1",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "pack-2",
+      "label": "Pack 2",
+      "path": "packs/pack-2",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/cartorium/Mystic-Camp",
+  "flags": {
+    "canUpload": true
+  }
+}
